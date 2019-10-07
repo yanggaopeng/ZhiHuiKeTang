@@ -1,0 +1,271 @@
+/*Puplice*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	outline: none;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+/*Head*/
+.Head{
+	width: 1920px;
+	height: 90px;
+	background: #ffffff;
+	border-bottom: 1px solid #979797;
+/*	position: fixed;
+	top: 0;
+	left: 0;*/
+	z-index: 9999;
+	border-bottom:1px solid #979797;
+}
+/*Head左边*/
+.Head-left{
+	float: left;
+	width: 116px;
+	height: 75px;
+	margin-left: 440px;
+	margin-top: 8px;
+	margin-right: 94px;
+	cursor: pointer;
+}
+/*Head中间*/
+.Head-middle{
+	float: left;
+	width: 712px;
+}
+.Head-middle li{
+	float: left;
+	width: 70px;
+	height: 60px;
+	font-size: 17px;
+	margin-top: 14px;
+	line-height: 70px;
+	margin-right: 72px;
+	cursor: pointer;
+}
+.Head-middle a{
+	color: #003951;
+}
+/*Head右边*/
+.Head-right{
+	float: left;
+	width: 163px;
+	height:70px;
+}
+.Head-right div{
+	float: left;
+	margin-top: 28px;
+ 	width: 76px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	border-radius: 20px;
+ 	font-size: 16px;
+ 	color: #527BF6;
+ 	text-align: center;
+ 	cursor: pointer;
+}
+.Head-right div:first-child{
+	float: left;
+	background: #ffffff;
+	border:1px solid #527BF6;
+}
+.DgImage{
+	display: none;
+	position: relative;
+	left: -107px;
+	top: 22px;
+	width: 300px;
+	height: 220px;
+}
+.Head-right div:last-child{
+	float: left;
+	color: #ffffff;
+	margin-left: 7px;
+	background: #527BF6;
+	border:1px solid #527BF6;
+}
+/*Banner*/
+.Banner{
+	width: 1920px;
+	height: 558px;
+	margin-bottom: 185px;
+	background: url(../Image/Download/banner.png);
+	/*position: relative;*/
+}
+/*Banner文字*/
+.Banner-top{
+	padding-left: 716px;
+	padding-top: 290px;
+	width: 500px;
+	line-height: 70px;
+	color: #ffffff;
+	font-size: 50px;
+	cursor: pointer;
+}
+/*Banner最外层div*/
+.Banner-bottom{
+	position: relative;
+	top: 53px;
+	left: 310px;
+	width: 1357px;
+	height: 236px;
+}
+.Banner-list{
+	width: 1357px;
+	height: 236px;
+	overflow: hidden;
+	position: relative;
+}
+.list{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*Banner内容*/
+.public{
+	float:left;
+	width: 310px;
+	height: 236px;
+	margin-right: 29px;
+	color: #ffffff;
+	background: #ffffff;
+	cursor: pointer;
+}
+/*Banner内容div图片上*/
+.public-top{
+	height: 138px;
+}
+.public-top h6{
+	font-weight: 500!important;
+	width: 140px;
+	height: 24px;
+	font-size: 16px;
+	padding-left: 85px;
+	padding-top: 36px;
+	padding-bottom: 4px; 
+	text-align: center;
+}
+.public-top p{
+	width: 167px;
+	padding-left: 71px;
+	font-size: 16px;
+	text-align: center;
+}
+/*Banner内容div图片下*/
+.public-bottom{
+	height:86px;
+	padding-left: 91px;
+	padding-top: 29px;
+}
+.public-bottom a{
+	display: inline-block;
+	width: 126px;
+	line-height: 38px;
+	background: #4DA3E7;
+	border-radius: 2px;
+	color: #ffffff;
+	text-align: center;
+}
+/*.public:last-child{
+	margin-right: 0px;
+}*/
+.CzMac{
+	background: url(../Image/Download/CZmac.png);
+}
+.CzWin{
+	background: url(../Image/Download/CZwin.png);
+}
+.CzIos{
+	background: url(../Image/Download/CZios.png);
+}
+.CzAz{
+	background: url(../Image/Download/CZaz.png);
+}
+.XuMac{
+	background: url(../Image/Download/XUmac.png);
+}
+.XuWin{
+	background: url(../Image/Download/XUwin.png);
+}
+.XuIos{
+	background: url(../Image/Download/XUios.png);
+}
+.XuAz{
+	background: url(../Image/Download/XUaz.png);
+}
+/*Footer*/
+.Footer{
+	width: 1920px;
+	height: 410px;
+	background: #060B22;
+}
+/*Footer上*/
+.Footer-top{
+	height: 340px;
+}
+/*Footer上左边*/
+.Footer-top-left{
+	margin-left: 603px;
+	margin-top: 77px;
+	float: left;
+	width: 530px;
+}
+.Footer-top-left dl{
+	float: left;
+	width: 156px;
+	color: #7C8189;
+	font-size: 16px;
+	margin-right: 107px;
+	cursor: pointer;
+}
+.Footer-top-left dt{
+	text-align: center;
+	line-height: 22px;
+	margin-bottom: 22px;
+}
+/*Footer上右边*/
+.Foooter-top-right{
+	margin-left: 20px;
+	margin-top: 77px;
+	float: left;
+	width: 454px;
+	height: 240px;
+	cursor: pointer;
+}
+.Foooter-top-right h4{
+	text-align: left;
+	color: #ffffff;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+.Foooter-top-right p{
+	height: 168px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #7C8189;
+}
+/*Footer下*/
+.Footer-bottom{
+	height:70px;
+	background:#000000;
+}
+.Footer-bottom p:first-child{
+	float:left;
+	margin-left:600px;
+	margin-top: 26px;
+	font-size: 14px;
+	color: #696969;
+	width: 750px;
+	line-height: 19px;
+	cursor: pointer;
+}
+.Footer-bottom p:last-child{
+	float:left;
+	margin-left:125px;
+	margin-top: 26px;
+	font-size: 14px;
+	color: #696969;
+	line-height: 19px;
+	cursor: pointer;
+}
