@@ -39,16 +39,27 @@ function Download(){
 	var listleft=document.getElementsByClassName('Public-left');
 	var listright=Productlist.getElementsByTagName('p');
 /*每个li添加鼠标移入移出事件*/
+	// for(var i=0; i<listleft.length; i++){
+	// 	listleft[i].index=i;
+	// 	listleft[i].onmouseover=function(){
+	// 			var a=this.index;
+	// 			listright[a].style.display="block";
+	// 	}
+	// 	listleft[i].onmouseout=function(){
+	// 			var b=this.index;
+	// 			listright[b].style.display="none";	
+	// 	}
+	// }
+//函数闭包解决方法
 	for(var i=0; i<listleft.length; i++){
-		listleft[i].index=i;
-		listleft[i].onmouseover=function(){
-				var a=this.index;
-				listright[a].style.display="block";
-		}
-		listleft[i].onmouseout=function(){
-				var b=this.index;
-				listright[b].style.display="none";	
-		}
+		(function (j){
+			listleft[j].onmouseover=function(){
+				listright[j].style.display="block";
+			}
+			listleft[j].onmouseout=function(){
+				listright[j].style.display="none";	
+			}
+		})(i)
 	}
 
 /*User*/
